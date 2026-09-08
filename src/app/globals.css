@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-paper: #F3F0E8;
+  --bg-ivory: #FAF9F5;
+  --bg-surface: #E9E5DB;
+  --text-charcoal: #20201D;
+  --text-muted: #77736B;
+  --border-fine: #D2CEC3;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #F3F0E8;
+    color: #20201D;
+    font-family: var(--font-jakarta), system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #F3F0E8;
+    color: #20201D;
+    overflow-x: hidden;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom text selection */
+  ::selection {
+    background-color: #20201D;
+    color: #F3F0E8;
+  }
+
+  /* Focus visible styles for accessibility */
+  :focus-visible {
+    outline: 2px solid #C85A32;
+    outline-offset: 3px;
+  }
+}
+
+/* Fine border utility for paper-like surfaces */
+.border-paper {
+  border-color: #D2CEC3;
+}
+
+/* Hand-drawn SVG stroke animation helper */
+.svg-draw-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw-path 1.4s ease-out forwards;
+}
+
+@keyframes draw-path {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Grain texture overlay for editorial paper feel */
+.bg-paper-texture {
+  background-color: #F3F0E8;
+  background-image: radial-gradient(#D2CEC3 0.65px, transparent 0.65px);
+  background-size: 24px 24px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "projects": [
+    {
+      "id": "proj-1788786782870",
+      "number": "02",
+      "title": "AI Resume Screener",
+      "subtitle": "Automated Candidate Evaluation & ATS Matching Engine",
+      "description": "An AI-powered application that analyzes unstructured resume data against job descriptions, providing match scores and actionable diagnostic feedback.",
+      "caseStudy": "Engineered a FastAPI backend to process resume uploads and execute Gemini API prompts, paired with a Next.js dynamic dashboard to display instant match metrics.",
+      "tech": [
+        "Next.js",
+        "React",
+        "FastAPI",
+        "Python",
+        "Gemini API",
+        "Tailwind CSS"
+      ],
+      "year": "2026",
+      "featured": false,
+      "liveUrl": "https://ai-resume-analyzer-coral-ten.vercel.app",
+      "githubUrl": "https://github.com/akshaymahajan2004/AI_Resume_Analyzer",
+      "visualType": "canvas-ai",
+      "imageUrl": ""
+    },
+    {
+      "id": "proj-1788783114693",
+      "number": "01",
+      "title": "AI Wesite Builder - Buildify",
+      "subtitle": "AI-Powered Website Generation & Visual Editing",
+      "description": "An AI-powered builder that transforms prompts into customizable web layouts, combining automated code generation with a real-time visual design editor.",
+      "caseStudy": "Engineered a prompt-enhancement pipeline via OpenRouter to output clean HTML/CSS/JS, paired with an in-browser live editor for seamless DOM customization.",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma ORM",
+        "OpenRouter",
+        "AI/LLM",
+        "TypeScript",
+        "Tailwind CSS",
+        "Stripe",
+        "REST APIs"
+      ],
+      "year": "2026",
+      "featured": true,
+      "liveUrl": "https://github.com/akshaymahajan2004/ai_website_builder-buildify",
+      "githubUrl": "https://github.com/akshaymahajan2004/ai_website_builder-buildify",
+      "visualType": "canvas-ai",
+      "imageUrl": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "React",
+      "category": "Frontend",
+      "description": "Building fluid, reactive component architectures and custom state-driven interfaces.",
+      "priority": 1
+    },
+    {
+      "id": "skill-2",
+      "name": "Next.js",
+      "category": "Frontend",
+      "description": "Architecting server-rendered apps, edge API routes, and optimized web performance.",
+      "priority": 2
+    },
+    {
+      "id": "skill-3",
+      "name": "TypeScript",
+      "category": "Frontend",
+      "description": "Building reliable and scalable end-to-end type-safe systems.",
+      "priority": 3
+    },
+    {
+      "id": "skill-4",
+      "name": "Node.js",
+      "category": "Backend & Cloud",
+      "description": "Designing scalable asynchronous backend services and REST/GraphQL APIs.",
+      "priority": 4
+    },
+    {
+      "id": "skill-5",
+      "name": "Python",
+      "category": "Backend & Cloud",
+      "description": "Scripting automation pipelines, backend services, and AI data integrations.",
+      "priority": 5
+    },
+    {
+      "id": "skill-6",
+      "name": "AI & LLMs",
+      "category": "AI & Data",
+      "description": "Integrating LLM workflows, structured outputs, embeddings, and prompt architecture.",
+      "priority": 6
+    },
+    {
+      "id": "skill-7",
+      "name": "PostgreSQL",
+      "category": "Backend & Cloud",
+      "description": "Designing relational database schemas, complex queries, and index strategies.",
+      "priority": 7
+    },
+    {
+      "id": "skill-8",
+      "name": "Git",
+      "category": "Design & Tools",
+      "description": "Managing collaborative branch strategies, code reviews, and version control.",
+      "priority": 8
+    },
+    {
+      "id": "skill-9",
+      "name": "Figma",
+      "category": "Design & Tools",
+      "description": "Translating editorial design systems, visual hierarchy, and component specs.",
+      "priority": 9
+    },
+    {
+      "id": "skill-10",
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "description": "Crafting clean, accessible, paper-aesthetic design systems with utility classes.",
+      "priority": 10
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "year": "2024 — PRESENT",
+      "role": "Senior Creative Developer",
+      "company": "Studio Kinetic",
+      "description": "Leading product development and creative frontend engineering for high-impact AI digital experiences and web platforms."
+    },
+    {
+      "id": "exp-2",
+      "year": "2023 — 2024",
+      "role": "Full Stack Engineer",
+      "company": "Craft Systems",
+      "description": "Architected real-time web applications, data visualization dashboards, and resilient cloud backend integration endpoints."
+    },
+    {
+      "id": "exp-3",
+      "year": "2022 — 2023",
+      "role": "Frontend Developer",
+      "company": "Catalyst Labs",
+      "description": "Built interactive user interfaces, editorial web layouts, and custom animation design systems for global clients."
+    }
+  ],
+  "about": {
+    "heroStatement": "I build digital experiences that feel as good as they work.",
+    "subStatement": "Developer, builder, and problem solver creating thoughtful products with code, design, and curiosity.",
+    "location": "Based in India · Available worldwide",
+    "bioParagraphs": [
+      "I believe software shouldn't just be functional—it should be crafted with taste, clarity, and deep attention to detail.",
+      "With a background bridging software architecture and interaction design, I build applications that blend technical rigor with artistic nuance. From zero-to-one product engineering to refined micro-interactions, I treat every project as both a system and a visual canvas.",
+      "When I'm not writing code, I'm experimenting with generative visual algorithms, reading editorial design literature, or sketching interface ideas."
+    ],
+    "philosophyQuote": "Good software should disappear behind the experience.",
+    "contactEmail": "akshay.mahajan.dev@gmail.com",
+    "socialLinks": {
+      "github": "https://github.com/akshaymahajan2004",
+      "linkedin": "https://linkedin.com/in/akshaymahajan1274",
+      "twitter": "https://twitter.com/akshaymahajan",
+      "resume": "/resume.pdf"
+    }
+  }
+}
