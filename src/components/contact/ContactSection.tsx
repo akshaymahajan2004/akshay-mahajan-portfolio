@@ -61,7 +61,7 @@ export const ContactSection: React.FC = () => {
             {/* Primary Action Buttons */}
             <div className="pt-4 flex flex-wrap items-center gap-4">
               <a
-                href="mailto:akshay.mahajan.dev@gmail.com"
+                href="mailto:akshaymahajan730@gmail.com"
                 className="inline-flex items-center space-x-3 px-8 py-4 bg-charcoal text-paper font-sans text-sm uppercase tracking-widest rounded-full hover:bg-terracotta transition-colors duration-300 shadow-md group"
                 onMouseEnter={() => setCursorState('hover-link')}
                 onMouseLeave={() => setCursorState('normal')}
